@@ -1,0 +1,46 @@
+<html>
+    <head>
+       <style>
+        .b1{
+            background-color: #f2f7f5;
+            border: none;
+            color: rgb(29, 29, 29);
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        #div1{
+            margin-left: 20%;
+            margin-top: 10%;
+            margin-right: 30%;
+            width: 50%;
+            height: 50%;
+            background-color: rgb(85, 82, 79);
+            
+        }
+       </style>
+    </head>
+    <div id="div1">
+    <form action="insertion.php" method="post">
+        <level for="level" style="font-size: large; color: aliceblue;"><b>Parent ID</level>
+        <select id="parent_id" name="level" class="b1">
+        <option value="0">Parent_ID 0</option>
+        <option value="1">Parent_ID 1</option>
+        <option value="2">Parent_ID 2</option>
+        <option value="3">Parent_ID 3</option>
+        <option value="4">Parent_ID 4</option>
+        <option value="5">Parent_ID 5</option>
+        <option value="6">Parent_ID 6</option>
+        <option value="7">Parent_ID 7</option>
+        <option value="8">Parent_ID 8</option>
+        <option value="9">Parent_ID 9</option>
+      </select><br><br>
+        <label for="name" style="font-size: large; color: aliceblue;"><b>Name</b></label>
+       <input type="text" id="name" name="name"  class="b1">
+       <input type="submit" value="Save" id="save" name="submit" class="b1">
+       <br>
+    </form>
+    <a href="display1.php"><input type="button" name="Display" value="Display" class="b1"></a>
+    </div>
+</html>
