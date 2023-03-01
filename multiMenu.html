@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiple Menu</title>
+        <style>
+            ul li{width: 200px;}
+             ul li{
+                display : block;
+                float  : left;
+                background-color : #57ad99;
+                padding : 32px;
+                font-size : 45px;
+
+             }
+             li li{
+                display : none;
+             }
+
+
+             
+             
+             ul li:hover ul li{
+                display : inline-block;
+                background-color : #ccc;
+                
+             }
+            
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>Home</li>
+            <li >
+                Name
+                <ul>
+                    <li>First Name</li>
+                    <li> Last Name<li>
+                </ul>
+            </li>
+            <li>
+                Stream
+                <ul>
+                    <li>Uder Graduate</li>
+                    <li>Post Graduate</li>
+                </ul>
+            </li>
+            <li>
+                Services
+                <ul>
+                    <li>Paid</li>
+                     
+                    <li>Non Paid</li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>
